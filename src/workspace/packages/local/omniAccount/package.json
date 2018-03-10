@@ -1,0 +1,70 @@
+{
+    "name": "omniAccount",
+    "namespace": "OmniEshops",
+    "framework":"ext62",
+    "type": "code",
+    "toolkit": "",
+    "creator": "OmniEshops",
+    "summary": "User account manager for OmniEshops network",
+    "detailedDescription": "This package allow developers, merchants and customers edit and configure account related settings in to OmniEshops Network. Include classic and modern support.",
+    "version": "1.0.4",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "output": {
+        "base": "${package.dir}/build/${toolkit.name}"
+    },
+    "resources":[{
+        "path": "resources",
+        "output": "shared"
+    }],
+    "builds": {
+        "classic": {
+            "toolkit": "classic",
+            "theme": "theme-triton"
+        },
+        "modern": {
+            "toolkit": "modern",
+            "theme": "theme-material"
+        }
+    },
+    "slicer": {
+        "js": [
+            {
+                "path": "${package.dir}/sass/example/custom.js",
+                "isWidgetManifest": true
+            }
+        ]
+    },
+    "local": true,
+    "sass" : {
+        "namespace": "OmniEshops",
+        "etc": [
+            "${package.dir}/sass/etc/all.scss",
+            "${package.dir}/${toolkit.name}/sass/etc/all.scss"
+         ],
+        "var": [
+            "${package.dir}/sass/var",
+            "${package.dir}/${toolkit.name}/sass/var"
+        ],
+        "src": [
+            "${package.dir}/sass/src",
+            "${package.dir}/${toolkit.name}/sass/src"
+        ]
+    },
+    "classpath": [
+        "${package.dir}/src",
+        "${package.dir}/${toolkit.name}/src"
+    ],
+    "overrides": [
+        "${package.dir}/overrides",
+        "${package.dir}/${toolkit.name}/overrides"
+    ],
+    "example": {
+        "path": [
+            "${package.dir}/examples"
+        ]
+    },
+    "requires": [
+        "font-awesome"
+    ]
+}

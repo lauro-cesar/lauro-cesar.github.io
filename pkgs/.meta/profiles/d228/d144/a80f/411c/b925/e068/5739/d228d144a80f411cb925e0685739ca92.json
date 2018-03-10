@@ -1,0 +1,23 @@
+{
+  "data": {
+    "created": "2018-03-09T13:35:40Z",
+    "email": "lauro@hostcert.com.br",
+    "expires": "2023-03-10T00:00:00Z",
+    "name": "OmniEshops",
+    "uuid": "d228d144-a80f-411c-b925-e0685739ca92"
+  },
+  "publicKey": {
+    "algorithm": "RSA",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtHgja/2OVsTjWzAM237zqTld4g0j2FBlwdehs4q6WGtPAY3BEXW3cN4aGkYb9OgqXqQztu05xFL4yiBcdjX+F/ZtTAgOTJfdzeM4ylkkXTqXHpr5OTLbkaYaZxTkzoZJQwToEnCO67v0RniNbd81MaFc5smOvLnbMa8l9acNWHbV13pgCMxHWg/xvbbrD+fLeDZxiRO1d8j/NOYzjg4YFe4eOWW8FPd4I7iU+uKlR9zUf3D07A5zXWXmfq/r23WH2MUMXMa+HIaTu2V3qXXKoVbb4oO9Oc/+FCxMRl4Emxvnb7dCSaDUy+VVqvW5CazydVadHjvbOlQjI9cauI84nQIDAQAB"
+  },
+  "signatures": [
+    {
+      "name": "OmniEshops",
+      "uuid": "d228d144-a80f-411c-b925-e0685739ca92",
+      "created": "2018-03-09T13:35:41Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "3hUHuRPskms\u003d",
+      "signature": "b51pUR6Y7QbqdddYMel9Xn5K/66oeFPccnShUfJg2OTFCihiIG/YDPUUS7LM7AXHqhlJoIa/RxBHCUXXLVmV8FFnr5z0/CTE5TPW/cuB1OrEBYzy6571Wa8EA/6bhMRwvhCAviaC7C0M/K5XXxuJ3Ocx1Nr/6k8N0aY+u+cw97CThbfGLRA/akCfFadZrxh7ValBaVZqeyZdJKZJIlRfAE/ZNThR2xZCsuxOwIhcNtBFp68WzjtpRne1kZDHJWth75puXy3rb83n35H8pOrkZgVJDSEaxFCP748dfAlPEjmehtTv3coVWIts2Fdpj+L7XD5mUvx1vcsXhBVQIXEhOQ\u003d\u003d"
+    }
+  ]
+}
