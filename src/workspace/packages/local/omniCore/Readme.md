@@ -1,0 +1,2 @@
+# omniCore - Read Me
+

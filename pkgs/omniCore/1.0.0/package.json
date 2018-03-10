@@ -1,0 +1,42 @@
+{
+  "name": "omniCore",
+  "namespace": "OmniEshops",
+  "format": "1",
+  "version": "1.0.0",
+  "creator": "OmniEshops",
+  "summary": "ViewModel and Controller",
+  "detailedDescription": "",
+  "type": "code",
+  "signatures": [
+    {
+      "name": "OmniEshops",
+      "uuid": "d228d144-a80f-411c-b925-e0685739ca92",
+      "created": "2018-03-10T14:06:18Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "nightUk+PRo\u003d",
+      "signature": "AzUaD9KfzuNVAv+KmEdP05/nroZalaRP1VrMUZeokQew4OgjwrZhmp4X6DWiBhx1dAL153GqhHRVEtmlgpJt0gchtkpPh4Ubwa0CfqHer55GN0VflYziHFex+c77NxW9U3uqNb3ZW5C/OhHFG3eb199i8M/lgN9J7D6k2isMLWQ9MH48MsS0+DnGnTE0wO0voJmwWIr38vqA+sh4nu5aYr1WfC9MOy4fvE1bPz/y2EPdw1xGq7eiEwE4/OBZ+71RUCaK9wFeK1hrdyj/zFs41DYqG4Bm1to9SHBPYW2sdA3FUm7vk/rPFiI19No2BQ7XJiBS5oM+QvPT4/L/Cc6/Fg\u003d\u003d"
+    }
+  ],
+  "resources": [
+    {
+      "path": "resources",
+      "output": "shared"
+    }
+  ],
+  "builds": {
+    "classic": {
+      "toolkit": "classic"
+    },
+    "modern": {
+      "toolkit": "modern"
+    }
+  },
+  "framework": "ext62",
+  "output": {
+    "base": "${package.dir}/build/${toolkit.name}"
+  },
+  "classpath": [
+    "${package.dir}/src",
+    "${package.dir}/${toolkit.name}/src"
+  ]
+}

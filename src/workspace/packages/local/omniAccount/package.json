@@ -7,7 +7,7 @@
     "creator": "OmniEshops",
     "summary": "User account manager for OmniEshops network",
     "detailedDescription": "This package allow developers, merchants and customers edit and configure account related settings in to OmniEshops Network. Include classic and modern support.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "compatVersion": "1.0.0",
     "format": "1",
     "output": {

@@ -1,0 +1,32 @@
+{
+  "name": "omniCore",
+  "namespace": "OmniEshops",
+  "format": "1",
+  "version": "1.0.0",
+  "creator": "OmniEshops",
+  "summary": "ViewModel and Controller",
+  "detailedDescription": "",
+  "type": "code",
+  "resources": [
+    {
+      "path": "resources",
+      "output": "shared"
+    }
+  ],
+  "builds": {
+    "classic": {
+      "toolkit": "classic"
+    },
+    "modern": {
+      "toolkit": "modern"
+    }
+  },
+  "framework": "ext62",
+  "output": {
+    "base": "${package.dir}/build/${toolkit.name}"
+  },
+  "classpath": [
+    "${package.dir}/src",
+    "${package.dir}/${toolkit.name}/src"
+  ]
+}
