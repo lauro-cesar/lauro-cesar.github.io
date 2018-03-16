@@ -1,6 +1,6 @@
 $app-name:  dynamic( 'BoardGameCreator' );
 $image-search-path: '/Users/olarva/Documents/Projetos/opensource/lauro-cesar.github.io/src/workspace/build/development/BoardGameCreator/resources';
-$theme-name:  dynamic( 'theme-triton' );
+$theme-name:  dynamic( 'theme-neptune' );
 $include-boardgamecreator-application: dynamic(true);;
 $include-boardgamecreator-store-personnel: dynamic(true);;
 $include-boardgamecreator-view-main-list: dynamic(true);;
@@ -788,21 +788,6 @@ $include-ext-theme-neptune-picker-month: dynamic(true);;
 $include-ext-theme-neptune-resizer-splitter: dynamic(true);;
 $include-ext-theme-neptune-toolbar-paging: dynamic(true);;
 $include-ext-theme-neptune-toolbar-toolbar: dynamic(true);;
-$include-ext-theme-triton-component: dynamic(true);;
-$include-ext-theme-triton-form-field-checkbox: dynamic(true);;
-$include-ext-theme-triton-grid-column-check: dynamic(true);;
-$include-ext-theme-triton-grid-column-column: dynamic(true);;
-$include-ext-theme-triton-grid-column-rownumberer: dynamic(true);;
-$include-ext-theme-triton-grid-plugin-rowexpander: dynamic(true);;
-$include-ext-theme-triton-grid-selection-spreadsheetmodel: dynamic(true);;
-$include-ext-theme-triton-list-treeitem: dynamic(true);;
-$include-ext-theme-triton-menu-item: dynamic(true);;
-$include-ext-theme-triton-menu-menu: dynamic(true);;
-$include-ext-theme-triton-picker-date: dynamic(true);;
-$include-ext-theme-triton-picker-month: dynamic(true);;
-$include-ext-theme-triton-resizer-splitter: dynamic(true);;
-$include-ext-theme-triton-selection-checkboxmodel: dynamic(true);;
-$include-ext-theme-triton-toolbar-paging: dynamic(true);;
 $include-ext-tip-quicktip: dynamic(true);;
 $include-ext-tip-quicktipmanager: dynamic(true);;
 $include-ext-tip-tip: dynamic(true);;
@@ -965,14 +950,6 @@ $current-resource-root: $font-awesome-resource-root;
 $relative-image-path-for-uis: $font-awesome-resource-path;
 @import '../../../../../ext62/packages/font-awesome/sass/etc/all';
 
-/* including package theme-triton */
-$theme-triton-resource-root: '' !default;
-$theme-triton-resource-path: 'images' !default;
-$current-package: 'theme-triton';
-$current-resource-root: $theme-triton-resource-root;
-$relative-image-path-for-uis: $theme-triton-resource-path;
-@import '../../../../../ext62/classic/theme-triton/sass/etc/all';
-
 /* including package BoardGameCreator */
 $BoardGameCreator-resource-root: '' !default;
 $BoardGameCreator-resource-path: 'images' !default;
@@ -1113,49 +1090,6 @@ $relative-image-path-for-uis: $theme-neptune-resource-path;
 @import '../../../../../ext62/classic/theme-neptune/sass/var/toolbar/Breadcrumb';
 @import '../../../../../ext62/classic/theme-neptune/sass/var/tree/View';
 @import '../../../../../ext62/classic/theme-neptune/sass/var/window/Toast';
-
-/* including package theme-triton */
-$theme-triton-resource-root: '' !default;
-$theme-triton-resource-path: 'images' !default;
-$current-package: 'theme-triton';
-$current-resource-root: $theme-triton-resource-root;
-$relative-image-path-for-uis: $theme-triton-resource-path;
-@import '../../../../../ext62/classic/theme-triton/sass/var/Component';
-@import '../../../../../ext62/classic/theme-triton/sass/var/LoadMask';
-@import '../../../../../ext62/classic/theme-triton/sass/var/ProgressBar';
-@import '../../../../../ext62/classic/theme-triton/sass/var/button/Button';
-@import '../../../../../ext62/classic/theme-triton/sass/var/panel/Tool';
-@import '../../../../../ext62/classic/theme-triton/sass/var/resizer/Splitter';
-@import '../../../../../ext62/classic/theme-triton/sass/var/toolbar/Toolbar';
-@import '../../../../../ext62/classic/theme-triton/sass/var/panel/Panel';
-@import '../../../../../ext62/classic/theme-triton/sass/var/container/ButtonGroup';
-@import '../../../../../ext62/classic/theme-triton/sass/var/window/Window';
-@import '../../../../../ext62/classic/theme-triton/sass/var/form/field/Base';
-@import '../../../../../ext62/classic/theme-triton/sass/var/window/MessageBox';
-@import '../../../../../ext62/classic/theme-triton/sass/var/form/field/Checkbox';
-@import '../../../../../ext62/classic/theme-triton/sass/var/form/FieldSet';
-@import '../../../../../ext62/classic/theme-triton/sass/var/view/BoundList';
-@import '../../../../../ext62/classic/theme-triton/sass/var/picker/Date';
-@import '../../../../../ext62/classic/theme-triton/sass/var/tip/Tip';
-@import '../../../../../ext62/classic/theme-triton/sass/var/form/field/HtmlEditor';
-@import '../../../../../ext62/classic/theme-triton/sass/var/form/field/Tag';
-@import '../../../../../ext62/classic/theme-triton/sass/var/view/Table';
-@import '../../../../../ext62/classic/theme-triton/sass/var/grid/header/Container';
-@import '../../../../../ext62/classic/theme-triton/sass/var/grid/column/Column';
-@import '../../../../../ext62/classic/theme-triton/sass/var/grid/column/Action';
-@import '../../../../../ext62/classic/theme-triton/sass/var/grid/feature/Grouping';
-@import '../../../../../ext62/classic/theme-triton/sass/var/menu/Menu';
-@import '../../../../../ext62/classic/theme-triton/sass/var/grid/filters/Filters';
-@import '../../../../../ext62/classic/theme-triton/sass/var/grid/locking/Lockable';
-@import '../../../../../ext62/classic/theme-triton/sass/var/grid/plugin/RowExpander';
-@import '../../../../../ext62/classic/theme-triton/sass/var/layout/container/Accordion';
-@import '../../../../../ext62/classic/theme-triton/sass/var/layout/container/Border';
-@import '../../../../../ext62/classic/theme-triton/sass/var/resizer/Resizer';
-@import '../../../../../ext62/classic/theme-triton/sass/var/selection/CheckboxModel';
-@import '../../../../../ext62/classic/theme-triton/sass/var/slider/Multi';
-@import '../../../../../ext62/classic/theme-triton/sass/var/tab/Tab';
-@import '../../../../../ext62/classic/theme-triton/sass/var/tab/Bar';
-@import '../../../../../ext62/classic/theme-triton/sass/var/tree/View';
 
 /* including package BoardGameCreator */
 $BoardGameCreator-resource-root: '' !default;
@@ -1351,27 +1285,6 @@ $current-package: 'font-awesome';
 $current-resource-root: $font-awesome-resource-root;
 $relative-image-path-for-uis: $font-awesome-resource-path;
 @import '../../../../../ext62/packages/font-awesome/sass/src/all';
-
-/* including package font-ext */
-$font-ext-resource-root: 'font-ext' !default;
-$font-ext-resource-path: 'font-ext/images' !default;
-$current-package: 'font-ext';
-$current-resource-root: $font-ext-resource-root;
-$relative-image-path-for-uis: $font-ext-resource-path;
-@import '../../../../../ext62/packages/font-ext/sass/src/all';
-
-/* including package theme-triton */
-$theme-triton-resource-root: '' !default;
-$theme-triton-resource-path: 'images' !default;
-$current-package: 'theme-triton';
-$current-resource-root: $theme-triton-resource-root;
-$relative-image-path-for-uis: $theme-triton-resource-path;
-@import '../../../../../ext62/classic/theme-triton/sass/src/Component';
-@import '../../../../../ext62/classic/theme-triton/sass/src/form/FieldSet';
-@import '../../../../../ext62/classic/theme-triton/sass/src/form/field/Tag';
-@import '../../../../../ext62/classic/theme-triton/sass/src/menu/Menu';
-@import '../../../../../ext62/classic/theme-triton/sass/src/tab/Tab';
-@import '../../../../../ext62/classic/theme-triton/sass/src/window/Toast';
 
 /* including package BoardGameCreator */
 $BoardGameCreator-resource-root: '' !default;

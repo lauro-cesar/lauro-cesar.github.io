@@ -3,7 +3,7 @@
      * The application's namespace.
      */
     "name": "BoardGameCreator",
-    
+
     /**
      * The version of the application.
      */
@@ -39,22 +39,22 @@
      * The Sencha Framework for this application: "ext" or "touch".
      */
     "framework": "ext62",
-    
-    
+
+
     /**
      * The toolkit to use. Select either "classic" or "modern".
      */
     "toolkit": "classic",
-    
-    
-    
+
+
+
     /**
      * The name of the theme for this application.
      */
-    
-    "theme": "theme-triton",
-    
-    
+
+    "theme": "theme-neptune",
+
+
     /**
      * The list of required packages (with optional versions; default is "latest").
      *
@@ -65,7 +65,8 @@
      *      ]
      */
     "requires": [
-        "font-awesome"
+        "font-awesome",
+        "omniCore@1.0.0"
     ],
 
     /**
@@ -101,19 +102,19 @@
          *         // The file used to save sass variables edited via Sencha Inspector and Sencha Themer.
          *         // This file will automatically be applied to the end of the scss build.
          *         "var": "sass/save.scss",
-         *      
+         *
          *         // The directory used to save generated sass sources.
          *         // This directory will automatically be applied to the end of the scss build.
          *         "src": "sass/save"
          *      }
          *
          */
-         
+
         "generated": {
             "var": "sass/save.scss",
             "src": "sass/save"
         },
-        
+
 
         /**
          * Comma-separated list of files or folders containing extra Sass. These
@@ -235,7 +236,7 @@
         }
     ],
 
-    
+
 
     /**
      * List of all CSS assets in the right inclusion order.
@@ -314,13 +315,13 @@
             "type": "yui"
         }
     },
-    
+
     /**
      * Settings specific to testing builds.
      */
     "testing": {
     },
-    
+
     /**
      * Settings specific to development builds.
      */
@@ -359,7 +360,7 @@
      */
     "bootstrap": {
         "base": "${app.dir}",
-        
+
         "microloader": "bootstrap.js",
         "css": "bootstrap.css"
     },
@@ -404,15 +405,15 @@
      *      }
      *
      */
-    
+
     "output": {
         "base": "${workspace.build.dir}/${build.environment}/${app.name}",
         "appCache": {
             "enable": false
         }
     },
-    
-    
+
+
     /**
     * Controls for localStorage caching
     *   "cache": {
@@ -428,12 +429,12 @@
     *       "deltas": "deltas"
     *   }
     */
-    
+
     "cache": {
         "enable": false,
         "deltas": true
     },
-    
+
 
     /**
      * Used to automatically generate cache.manifest (HTML 5 application cache manifest)
@@ -474,9 +475,9 @@
      * generated inside this directory must be kept intact for proper generation of
      * deltas between updates.
      */
-    
+
     "archivePath": "archive",
-    
+
 
 
     /**
@@ -508,8 +509,8 @@
      * names.
      *
      */
-    
-    
+
+
     /**
      * File / directory name patttern to ignore when copying to the builds. Must be a
      * valid regular expression.
