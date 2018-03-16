@@ -1,5 +1,12 @@
 {
     /**
+     *  An array of the paths to all the applications present in this workspace
+     */
+    "apps": [
+        "apps/BoardGameCreator"
+    ],
+
+    /**
      * An object containing key value pair framework descriptors.
      * 
      * The value can be a string or an object containing at least one of "dir" or "pkg",
